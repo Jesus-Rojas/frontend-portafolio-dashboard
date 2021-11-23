@@ -1,0 +1,25 @@
+$white-color: #ffffff;
+$gold-color: #b69d74;
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 18px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
+            font-size: 20px;
+            color: $white-color;
+
+            &:hover {
+                color: $gold-color;
+            }
+        }
+    }
+}

@@ -90,17 +90,17 @@
 	});
 
 	// Back to top 
-	$('body').append('<div id="toTop" class="back-to-top-btn"><i class="icofont-bubble-up"></i></div>');
-	$(window).scroll(function () {
-		if ($(this).scrollTop() != 0) {
-			$('#toTop').fadeIn();
-		} else {
-			$('#toTop').fadeOut();
-		}
-	}); 
-	$('#toTop').on('click', function(){
-		$("html, body").animate({ scrollTop: 0 }, 900);
-		return false;
-	});
+	// $('body').append('<div id="toTop" class="back-to-top-btn"><i class="icofont-bubble-up"></i></div>');
+	// $(window).scroll(function () {
+	// 	if ($(this).scrollTop() != 0) {
+	// 		$('#toTop').fadeIn();
+	// 	} else {
+	// 		$('#toTop').fadeOut();
+	// 	}
+	// }); 
+	// $('#toTop').on('click', function(){
+	// 	$("html, body").animate({ scrollTop: 0 }, 900);
+	// 	return false;
+	// });
 
 })(jQuery);

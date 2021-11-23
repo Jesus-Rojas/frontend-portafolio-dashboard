@@ -8,6 +8,13 @@ $white-color: #ffffff;
 $gold-color: #b69d74;
 $black-color: #333333;
 
+.cursor-pointer{
+    cursor:pointer;
+}
+
+.gold-color {
+    color:$gold-color
+}
 /*-- Default CSS --*/
 body {
     font-family: $common-font;
@@ -194,7 +201,8 @@ button {
 
 /*-- Banner --*/
 .banner-img-one {
-    background-image: url('assets/img/home-one/home-bg1.jpg');
+    background-image: url('assets/img/logo-custom.jpg');
+    // z-index: 1;
 }
 .banner-area {
     height: 830px;
@@ -1421,7 +1429,7 @@ footer {
         left: 0;
         z-index: -1;
         top: 0;
-        background-color: #1c1d1e;
+        background-color: #000000;
         opacity: .99;
     }
     .footer-item {
@@ -3567,3 +3575,6 @@ footer {
     }
 }
 /*----- End Back To Top -----*/
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
